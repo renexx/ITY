@@ -17,4 +17,4 @@ $(PROJ).ps: $(PROJ).dvi
 pack:
 	zip $(PACK).zip Makefile $(PROJ).tex
 clean:
-	rm $(PROJ).aux $(PROJ).dvi $(PROJ).log
+	rm -f $(PROJ).aux $(PROJ).dvi *.log $(PROJ).out
